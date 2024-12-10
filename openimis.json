@@ -121,10 +121,6 @@
             "pip": "openimis-be-controls~=1.2.0"
         },
         {
-            "name": "grievance_social_protection",
-            "pip": "openimis-be-grievance_social_protection~=1.0.0"
-        },
-        {
             "name": "claim_sampling",
             "pip": "openimis-be-claim_sampling~=1.0.0"
         }
