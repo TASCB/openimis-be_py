@@ -6,7 +6,11 @@
         },
         {
             "name": "individual",
-            "pip": "git+https://github.com/TASCB/openimis-be-individual_py.git@tz-changes"
+            "pip": "-e ../openimis-be-individual_py"
+        },
+        {
+            "name": "legacy_individual",
+            "pip": "-e ../openimis-be-legacy_individual_py"
         },
         {
             "name": "workflow",
@@ -54,7 +58,7 @@
         },
         {
             "name": "payment",
-            "pip": "git+https://github.com/openimis/openimis-be-payment_py.git@release/25.10"
+            "pip": "git+https://github.com/openimis/openimis-be-payment_py.git@develop#egg=openimis-be-payment"
         },
         {
             "name": "claim",
@@ -67,10 +71,6 @@
         {
             "name": "tools",
             "pip": "git+https://github.com/openimis/openimis-be-tools_py.git@fix/pyminizip-mac-incompatibility"
-        },
-        {
-            "name": "api_fhir_r4",
-            "pip": "git+https://github.com/openimis/openimis-be-api_fhir_r4_py.git@release/25.10"
         },
         {
             "name": "calculation",
@@ -149,8 +149,16 @@
             "pip": "git+https://github.com/openimis/openimis-be-calcrule_social_protection_py.git@release/25.10"
         },
         {
+            "name": "calcrule_pct_payment",
+            "pip": "-e ../openimis-be-calcrule_pct_payment_py"
+        },
+        {
             "name": "payroll",
-            "pip": "git+https://github.com/openimis/openimis-be-payroll_py.git@release/25.10"
+            "pip": "-e ../openimis-be-payroll_py"
+        },
+        {
+            "name": "muse_payment_adaptor",
+            "pip": "-e ../openimis-be-muse_payment_adaptor_py"
         },
         {
             "name": "controls",
@@ -170,7 +178,11 @@
         },
         {
             "name": "api_etl",
-            "pip": "git+https://github.com/TASCB/openimis-be-api_etl_py.git@feature/survey-solutions"
+            "pip": "-e ../openimis-be-api_etl_py"
+        },
+        {
+            "name": "tasaf_payment",
+            "pip": "-e ../openimis-be-tasaf_payment_py"
         }
     ]
 }
