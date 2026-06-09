@@ -18,11 +18,15 @@ show_help() {
 }
 
 init(){
+  echo "Preparing grievance social protection migrations..."
+  python manage.py makemigrations grievance_social_protection
   echo "Migrating..."
   python manage.py migrate
   export SCHEDULER_AUTOSTART=True
   echo "Running fixture loading script..."
   bash ../script/load_fixture.sh
+  echo "Seeding grievance social protection..."
+  python manage.py seed_grievances
 }
 
 #export PYTHONPATH="/opt/app:$PYTHONPATH"
