@@ -158,7 +158,7 @@
         },
         {
             "name": "muse_payment_adaptor",
-            "pip": "-e ../openimis-be-muse_payment_adaptor_py"
+            "pip": "git+https://github.com/TASCB/openimis-be-muse_payment_adaptor_py.git@main"
         },
         {
             "name": "controls",
