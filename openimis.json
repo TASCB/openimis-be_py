@@ -157,6 +157,10 @@
             "pip": "git+https://github.com/TASCB/openimis-be-payroll_py.git@tz-imf"
         },
         {
+            "name": "coremis_app_integration",
+            "pip": "git+https://github.com/TASCB/openimis-be-coremis_app_integration_py.git@main"
+        },
+        {
             "name": "muse_payment_adaptor",
             "pip": "git+https://github.com/TASCB/openimis-be-muse_payment_adaptor_py.git@main"
         },
