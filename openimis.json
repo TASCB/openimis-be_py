@@ -10,7 +10,7 @@
         },
         {
             "name": "legacy_individual",
-            "pip": "-e ../openimis-be-legacy_individual_py"
+            "pip": "git+https://github.com/tasaf-tz/openimis-be-legacy_individual_py.git@main"
         },
         {
             "name": "workflow",
