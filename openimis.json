@@ -6,7 +6,7 @@
         },
         {
             "name": "individual",
-            "pip": "-e ../openimis-be-individual_py"
+            "pip": "git+https://github.com/TASCB/openimis-be-individual_py.git@tz-imf"
         },
         {
             "name": "legacy_individual",
@@ -154,7 +154,7 @@
         },
         {
             "name": "payroll",
-            "pip": "-e ../openimis-be-payroll_py"
+            "pip": "git+https://github.com/TASCB/openimis-be-payroll_py.git@tz-imf"
         },
         {
             "name": "muse_payment_adaptor",
@@ -178,11 +178,11 @@
         },
         {
             "name": "api_etl",
-            "pip": "-e ../openimis-be-api_etl_py"
+            "pip": "git+https://github.com/TASCB/openimis-be-api_etl_py.git@tz-imf"
         },
         {
             "name": "tasaf_payment",
-            "pip": "-e ../openimis-be-tasaf_payment_py"
+            "pip": "git+https://github.com/TASCB/openimis-be-tasaf_payment_py.git@main"
         }
     ]
 }
