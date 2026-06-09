@@ -150,7 +150,7 @@
         },
         {
             "name": "calcrule_pct_payment",
-            "pip": "-e ../openimis-be-calcrule_pct_payment_py"
+            "pip": "git+https://github.com/TASCB/openimis-be-calcrule_pct_payment_py.git@main"
         },
         {
             "name": "payroll",
