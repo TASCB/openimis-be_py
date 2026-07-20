@@ -1,5 +1,8 @@
 FROM python:3.11-bookworm AS builder
 ENV PYTHONUNBUFFERED 1
+# Make pip resilient on slow/flaky networks (avoids IncompleteRead aborting the build)
+ENV PIP_DEFAULT_TIMEOUT=120 \
+    PIP_RETRIES=10
 ARG DB_DEFAULT
 
 # System dependencies
