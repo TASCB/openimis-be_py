@@ -46,7 +46,18 @@ ENV OPENIMIS_CONF_JSON=${OPENIMIS_CONF_JSON}
 
 # Install module-specific requirements
 WORKDIR /openimis-be/script
-RUN python modules-requirements.py ../openimis.json > modules-requirements.txt && pip install -r modules-requirements.txt
+# Module deps are cloned from GitHub over a flaky link. Force HTTP/1.1 (avoids the
+# "curl 92 HTTP/2 stream ... CANCEL / early EOF" on --filter=blob:none clones), enlarge
+# the http buffer, and abort dead clones so the retry loop reacts.
+ENV GIT_HTTP_LOW_SPEED_LIMIT=1000
+ENV GIT_HTTP_LOW_SPEED_TIME=60
+RUN git config --global http.version HTTP/1.1 && git config --global http.postBuffer 524288000
+RUN python modules-requirements.py ../openimis.json > modules-requirements.txt && \
+    for i in 1 2 3 4 5; do \
+      echo "module pip install attempt $i" && \
+      pip install -r modules-requirements.txt && break || \
+      { echo "attempt $i failed, retrying in 20s"; sleep 20; }; \
+    done
 
 # Collect static assets and messages
 WORKDIR /openimis-be/openIMIS
