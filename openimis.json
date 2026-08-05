@@ -6,11 +6,11 @@
         },
         {
             "name": "individual",
-            "pip": "-e /home/jeffharan/projects/tasafMis/openimis-dist_dkr/openimis-be-individual_py"
+            "pip": "git+https://github.com/TASCB/openimis-be-individual_py.git@tz-imf"
         },
         {
             "name": "legacy_individual",
-            "pip": "-e /home/jeffharan/projects/tasafMis/openimis-dist_dkr/openimis-be-legacy_individual_py"
+            "pip": "git+https://github.com/tasaf-tz/openimis-be-legacy_individual_py.git@main"
         },
         {
             "name": "workflow",
@@ -150,19 +150,19 @@
         },
         {
             "name": "calcrule_pct_payment",
-            "pip": "-e /home/jeffharan/projects/tasafMis/openimis-dist_dkr/openimis-be-calcrule_pct_payment_py"
+            "pip": "git+https://github.com/TASCB/openimis-be-calcrule_pct_payment_py.git@main"
         },
         {
             "name": "payroll",
-            "pip": "-e /home/jeffharan/projects/tasafMis/openimis-dist_dkr/openimis-be-payroll_py"
+            "pip": "git+https://github.com/TASCB/openimis-be-payroll_py.git@tz-imf"
         },
         {
             "name": "coremis_app_integration",
-            "pip": "-e /home/jeffharan/projects/tasafMis/openimis-dist_dkr/openimis-be-coremis_app_integration_py"
+            "pip": "git+https://github.com/TASCB/openimis-be-coremis_app_integration_py.git@main"
         },
         {
             "name": "muse_payment_adaptor",
-            "pip": "-e /home/jeffharan/projects/tasafMis/openimis-dist_dkr/openimis-be-muse_payment_adaptor_py"
+            "pip": "git+https://github.com/TASCB/openimis-be-muse_payment_adaptor_py.git@main"
         },
         {
             "name": "controls",
@@ -170,7 +170,7 @@
         },
         {
             "name": "grievance_social_protection",
-            "pip": "git+https://github.com/openimis/openimis-be-grievance_social_protection_py.git@release/25.10"
+            "pip": "git+https://github.com/TASCB/openimis-be-grievance_social_protection_py.git@tz-changes"
         },
         {
             "name": "claim_sampling",
@@ -182,31 +182,31 @@
         },
         {
             "name": "api_etl",
-            "pip": "-e /home/jeffharan/projects/tasafMis/openimis-dist_dkr/openimis-be-api_etl_py"
+            "pip": "git+https://github.com/TASCB/openimis-be-api_etl_py.git@tz-imf"
         },
         {
             "name": "tasaf_payment",
-            "pip": "-e /home/jeffharan/projects/tasafMis/openimis-dist_dkr/openimis-be-tasaf_payment_py"
+            "pip": "git+https://github.com/TASCB/openimis-be-tasaf_payment_py.git@main"
         },
         {
             "name": "training",
-            "pip": "-e /home/jeffharan/projects/tasafMis/openimis-dist_dkr/openimis-be-training_py"
+            "pip": "git+https://github.com/TASCB/openimis-be-training_py.git@tz-imf"
         },
         {
             "name": "communications",
-            "pip": "-e /home/jeffharan/projects/tasafMis/openimis-dist_dkr/openimis-be-communications_py"
+            "pip": "git+https://github.com/TASCB/openimis-be-communications_py.git@tz-imf"
         },
         {
             "name": "coordination",
-            "pip": "-e /home/jeffharan/projects/tasafMis/openimis-dist_dkr/openimis-be-coordination_py"
+            "pip": "git+https://github.com/TASCB/openimis-be-coordination_py.git@tz-imf"
         },
         {
             "name": "access_request",
-            "pip": "-e /home/jeffharan/projects/tasafMis/openimis-dist_dkr/openimis-be-access_request_py"
+            "pip": "git+https://github.com/TASCB/openimis-be-access_request_py.git@tz-imf"
         },
         {
             "name": "approval",
-            "pip": "-e /home/jeffharan/projects/tasafMis/openimis-dist_dkr/openimis-be-approval_py"
+            "pip": "git+https://git@github.com/TASCB/openimis-be-approval_py.git@tz-imf"
         }
     ]
 }
