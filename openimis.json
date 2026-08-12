@@ -207,6 +207,10 @@
         {
             "name": "approval",
             "pip": "git+https://git@github.com/TASCB/openimis-be-approval_py.git@tz-imf"
+        },
+        {
+            "name": "notifications",
+            "pip": "git+https://github.com/TASCB/openimis-be-notifications_py.git@tz-tst-grd"
         }
     ]
 }
