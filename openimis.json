@@ -58,7 +58,7 @@
         },
         {
             "name": "payment",
-            "pip": "git+https://github.com/openimis/openimis-be-payment_py.git@develop#egg=openimis-be-payment"
+            "pip": "git+https://github.com/openimis/openimis-be-payment_py.git@b5a74e500a250549419acd0272f2242fafd259ca#egg=openimis-be-payment"
         },
         {
             "name": "claim",
