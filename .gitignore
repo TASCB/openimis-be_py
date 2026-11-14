@@ -26,3 +26,6 @@ openimis-dev.json
 
 # Ensure all files in runConfigurations are included
 !.idea/runConfigurations/*
+
+# Runtime upload directory (imported files, not source)
+openIMIS/legacy_individual_uploads/

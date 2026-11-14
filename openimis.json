@@ -6,7 +6,7 @@
         },
         {
             "name": "individual",
-            "pip": "git+https://github.com/TASCB/openimis-be-individual_py.git@tz-imf"
+            "pip": "git+https://github.com/TASCB/openimis-be-individual_py.git@tz-changes"
         },
         {
             "name": "workflow",
@@ -54,7 +54,7 @@
         },
         {
             "name": "payment",
-            "pip": "git+https://github.com/openimis/openimis-be-payment_py.git@release/25.10"
+            "pip": "git+https://github.com/openimis/openimis-be-payment_py.git@b5a74e500a250549419acd0272f2242fafd259ca#egg=openimis-be-payment"
         },
         {
             "name": "claim",
@@ -67,10 +67,6 @@
         {
             "name": "tools",
             "pip": "git+https://github.com/openimis/openimis-be-tools_py.git@fix/pyminizip-mac-incompatibility"
-        },
-        {
-            "name": "api_fhir_r4",
-            "pip": "git+https://github.com/openimis/openimis-be-api_fhir_r4_py.git@release/25.10"
         },
         {
             "name": "calculation",
@@ -149,8 +145,20 @@
             "pip": "git+https://github.com/openimis/openimis-be-calcrule_social_protection_py.git@release/25.10"
         },
         {
+            "name": "calcrule_pct_payment",
+            "pip": "git+https://github.com/TASCB/openimis-be-calcrule_pct_payment_py.git@main"
+        },
+        {
             "name": "payroll",
-            "pip": "git+https://github.com/openimis/openimis-be-payroll_py.git@release/25.10"
+            "pip": "git+https://github.com/TASCB/openimis-be-payroll_py.git@tz-imf"
+        },
+        {
+            "name": "coremis_app_integration",
+            "pip": "git+https://github.com/TASCB/openimis-be-coremis_app_integration_py.git@main"
+        },
+        {
+            "name": "muse_payment_adaptor",
+            "pip": "git+https://github.com/TASCB/openimis-be-muse_payment_adaptor_py.git@main"
         },
         {
             "name": "controls",
@@ -158,11 +166,7 @@
         },
         {
             "name": "grievance_social_protection",
-            "pip": "../openimis-be-grievance_social_protection_py"
-        },
-        {
-            "name": "public_works_programs",
-            "pip": "../openimis-be-public_works_programs_py"
+            "pip": "git+https://github.com/openimis/openimis-be-grievance_social_protection_py.git@release/25.10"
         },
         {
             "name": "claim_sampling",
@@ -174,7 +178,35 @@
         },
         {
             "name": "api_etl",
-            "pip": "git+https://github.com/TASCB/openimis-be-api_etl_py.git@feature/survey-solutions"
+            "pip": "git+https://github.com/TASCB/openimis-be-api_etl_py.git@tz-imf"
+        },
+        {
+            "name": "tasaf_payment",
+            "pip": "git+https://github.com/TASCB/openimis-be-tasaf_payment_py.git@main"
+        },
+        {
+            "name": "training",
+            "pip": "git+https://github.com/TASCB/openimis-be-training_py.git@tz-imf"
+        },
+        {
+            "name": "communications",
+            "pip": "git+https://github.com/TASCB/openimis-be-communications_py.git@tz-imf"
+        },
+        {
+            "name": "coordination",
+            "pip": "git+https://github.com/TASCB/openimis-be-coordination_py.git@tz-imf"
+        },
+        {
+            "name": "access_request",
+            "pip": "git+https://github.com/TASCB/openimis-be-access_request_py.git@tz-imf"
+        },
+        {
+            "name": "approval",
+            "pip": "git+https://git@github.com/TASCB/openimis-be-approval_py.git@tz-imf"
+        },
+        {
+            "name": "notifications",
+            "pip": "git+https://github.com/TASCB/openimis-be-notifications_py.git@tz-tst-grd"
         }
     ]
 }
