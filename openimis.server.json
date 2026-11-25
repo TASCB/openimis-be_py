@@ -215,6 +215,14 @@
         {
             "name": "case_management",
             "pip": "git+https://github.com/TASCB/openimis-be-case_management_py.git@tz-tst-grd"
+        },
+        {
+            "name": "public_works_programs",
+            "pip": "git+ssh://git@github.com/TASCB/openimis-be-public_works_programs_py.git@main"
+        },
+        {
+            "name": "oidc",
+            "pip": "git+ssh://git@github.com/TASCB/openimis-be-oidc_py.git@main"
         }
     ]
 }
